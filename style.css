@@ -13,11 +13,13 @@ body {
 }
 
 #todo {
-  display: block;
+  display: flex;
   margin: auto;
   width: 80vw;
-  height: auto;
+  height: 3rem;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .title {
@@ -38,7 +40,6 @@ body {
   border: none;
   border-bottom: 2px solid white;
   text-align: center;
-  margin-top: 6rem;
   margin-right: 1rem;
   color: white;
   width: 50vw;
