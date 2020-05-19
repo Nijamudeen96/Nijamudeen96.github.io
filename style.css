@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  background: linear-gradient(45deg, #0700b8 0%, #00ff88 100%);
+}
+
+#todo {
+  display: block;
+  margin: auto;
+  width: 80vw;
+  height: auto;
+  text-align: center;
+}
+
+.title {
+  margin: 1rem 1.5rem;
+  color: white;
+  font-family: "Pacifico", cursive;
+  font-size: 3rem;
+  font-weight: 200;
+}
+
+#list {
+  margin: 2rem;
+  list-style-type: none;
+}
+
+#task {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  text-align: center;
+  margin-top: 6rem;
+  margin-right: 1rem;
+  color: white;
+  width: 70%;
+  font-size: 1.2rem;
+}
+
+.list-item {
+  opacity: 1;
+  transition: all 0.5s ease-out;
+  background-color: white;
+  color: #000000;
+  margin: 0.5rem;
+  padding: 1rem 0.7rem;
+  border-radius: 0.25rem;
+  font-size: 1.5rem;
+}
+
+.list-item.hide {
+  opacity: 0;
+}
+
+.btn {
+  width: 5rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  border-style: none;
+  font-size: 1rem;
+}
+
+#quote {
+  width: 90vw;
+  margin: 0;
+  position: absolute;
+  top: 85%;
+  left: 5%;
+  color: white;
+  opacity: 0.75;
+}
+
+#text {
+  font-weight: 200;
+  text-align: justify;
+  margin: 0 3rem;
+}
+
+#author {
+  font-weight: 100;
+  font-size: 0.9rem;
+  text-align: right;
+  margin: 0.5rem 4rem;
+  font-style: italic;
+}
