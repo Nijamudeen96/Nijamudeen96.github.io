@@ -112,4 +112,10 @@ body {
     width: unset;
     margin: 2rem;
   }
+  #text {
+    font-size: 0.8rem;
+  }
+  #author {
+    font-size: 0.6rem;
+  }
 }
